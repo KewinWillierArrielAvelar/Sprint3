@@ -1,0 +1,134 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0%;
+}
+
+#grid-cards {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Fim cabeçalho */
+
+/* Começo rodape */
+footer {
+  width: 100%;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+/* Fim do rodape */
+
+/* animação card */
+.card {
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+/* CSS para o cabeçalho */
+.cabecalho {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  align-items: center;
+}
+
+.imglogo img {
+  width: 20%;
+  height: auto;
+}
+
+.secoes ul {
+  margin: 0;
+  padding: 0;
+}
+
+.secoes ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.secoes ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.secoes ul li a:hover {
+  color: #ccc;
+}
+
+.secoes .dropdown-menu {
+  background-color: #333; /* Cor de fundo do dropdown */
+  border: none;
+}
+
+.secoes .dropdown-menu .dropdown-item {
+  color: #f36f21; /* Cor da fonte do dropdown */
+  font-family: 'Montserrat', sans-serif;
+}
+.secoes .dropdown-menu {
+  min-width: unset; /* Remove a largura mínima */
+  width: auto; /* Define a largura automática */
+}
+
+.secoes .dropdown-menu .dropdown-item {
+  width: auto; /* Define a largura automática para cada item */
+  padding: 5px 10px; /* Ajusta o padding para reduzir o espaço dentro das caixas */
+  font-size: medium; /* Reduz o tamanho da fonte */
+  line-height: 1.5; /* Ajusta a altura da linha para reduzir o espaço entre as opções */
+}
+
+
+.secoes .dropdown-menu .dropdown-item:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+  color: #f36f21;
+}
+
+.FAQ {
+  float: right;
+  color: white;
+}
+
+.FAQ a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* mural de imagens */
+
+.masonry-grid {
+  column-count: 4;
+  column-gap: 1rem;
+}
+
+.masonry-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .masonry-grid {
+      column-count: 2;
+  }
+}
+

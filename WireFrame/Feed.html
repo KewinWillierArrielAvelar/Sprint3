@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Feed - MatchPoint</title>
+    <script src="https://kit.fontawesome.com/9847d1c927.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header class="cabecalho">
+      <div class="imglogo">
+          <a href="HomePage.html"><img src="assets/imagens/logo.png" alt="Logo MatchPoint"></a>
+      </div>
+      <nav class="secoes">
+          <ul>
+              <li><a href="Perfilvisualizavel.html">Perfil</a></li>
+              <li><a href="#">Criar grupo</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Esportes</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><p class="texto">Volei</p></a></li>
+                      <li><a class="dropdown-item" href="#"><p class="texto">Futebol</p></a></li>
+                      <li><a class="dropdown-item" href="#"><p class="texto">Basquete</p></a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Mapa</a></li>
+              <li><a href="Feed.html">Feed</a></li>
+          </ul>
+      </nav>
+      <div class="FAQ">
+          <a href="#"><i class="fa-regular fa-circle-question"></i> FAQ</a>
+      </div>
+    </header>
+
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Galeria MatchPoint</h2>
+        <div class="masonry-grid">
+            <!-- Imagens podem ser adicionadas aqui -->
+            <img src="assets/Imagens/praticando esporte 1.png" alt="Imagem Exemplo 1">
+        </div>
+        <input type="file" id="file-input" style="margin-bottom: 10px;">
+        <button class="btn btn-primary" onclick="addImage()">Adicionar Imagem</button>
+    </div>
+
+    <footer class="bg-dark text-center text-white p-3 mt-4">
+        <p>@2024 Direitos Autorais MatchPoint</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
